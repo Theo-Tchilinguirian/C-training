@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 
-void showt(int *, int);
+void showt(int *, int);  // show array
 
-void showtbidi(int, int (*)[], int);
+void showtbidi(int, int (*)[], int);  // show bidimensional array
 
-void showtbididos(int, int *[], int);
+void showtbididos(int, int *[], int);  // show bidimensional array 2
 
 
 void showt(int *t, int n){
