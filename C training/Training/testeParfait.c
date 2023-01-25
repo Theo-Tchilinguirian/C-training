@@ -4,13 +4,13 @@
 int main(){
     int rep;
     do{
-        printf("FAITES?VOTRE?CHOIX??\n 1 pOUR 0 : quitte le programme\
+        printf("\n\nFAITES?VOTRE?CHOIX??\n 1 pOUR 0 : quitte le programme\
 • 1 : saisit un entier et dit s’il est parfait\n\
 • 2 : saisit deux entiers a et b et affiche le nombre d’entiers parfait de l’intervalle [a, b]\n\
 • 3 : saisit un entier n et affiche le ni`eme nombre parfait.\n\
 • 4 : saisit deux entiers n et d, et affiche le plus proche parfait de n s’il en existe un dans l’intervalle\n\
 [n − d, n + d] ou un message d’absence sinon.\n\
-• autre : ne fait rien\nCHoIX: ");
+• autre : ne fait rien\nChoix: ");
     scanf("%d", &rep);
     switch(rep){
         case 1:
