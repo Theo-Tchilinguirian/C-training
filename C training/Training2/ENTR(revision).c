@@ -9,9 +9,9 @@ void cpt_fois();
 
 int som_car_rec(int, int);
 
-void shotabent(int*, int);
+void shotabent(int*, int);  // Show unidimensional array
 
-void shotabidi(int, int, int (*)[]);
+void shotabidi(int, int, int (*)[]);  // Show bidimensional array
 
 void incr_bidi(int, int, int (*t)[]);  // ou (?) void incr_bidi(int*[], int); Pareil ? int[][] ??
 
@@ -219,7 +219,7 @@ p = NULL;
 L'opérateur de déréférencement pour afficher une adresse / un pntr est %p.
 
 Créer un tableau dynamique :
-Allocation ds un pntr du nb de cases du tableau
+Allocation ds un pointeur du nb de cases du tableau
 Verif de la réussite de l'alloc
 /!\ :  Pas de décla avec init sur ces tableaux !! (Comme VLA)
 
