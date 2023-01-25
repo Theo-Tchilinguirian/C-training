@@ -9,7 +9,7 @@ int main(int argc, char *argv[]){
     char nom[51];
 
     scanf("%50s%50s", prenom, nom);
-    printf("U arr %s %s, Amirite%.3f?\n", prenom, nom, 1.56);
+    printf("You are %s %s, right %.3f? (real nb format test)\n", prenom, nom, 1.56);
 
     free(prenom);
     prenom = NULL;
