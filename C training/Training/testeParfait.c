@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "parfait.h"
+#include "nombres_parfaits.h"
 
 int main(){
     int rep;
