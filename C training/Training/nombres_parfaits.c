@@ -1,4 +1,4 @@
-#include "parfait.h"
+#include "nombres_parfaits.h"
 
 int sommeDiv(int n){
     int somme = 0;
