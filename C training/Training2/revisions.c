@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "mdl.h"
+
+struct complexe {
+    int re;
+    int im;
+};
+
+typedef struct complexe complexe;
 
 
 /* Déclaration des fonctions */
