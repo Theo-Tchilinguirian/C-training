@@ -1,11 +1,4 @@
 /*
-Mettre les %d, %u, %f...
-Les tailles en octet, les tableaux les data etc etc...
-De vraies fiches mémo du cours.
-Et des bouts de code utilisables, copier-collables !
-*/
-
-/*
 Spécifications de format :
 Format          Type du paramètre effectif (conversion en)          Taille (nb octets)      Gamme valeurs
 
