@@ -1,5 +1,5 @@
-#define PARFAIT_H
-#ifndef PARFAIT_H
+#define NOMBRES_PARFAITS_H
+#ifndef NOMBRES_PARFAITS_H
 
 _Bool testeParfait(int n);
 
